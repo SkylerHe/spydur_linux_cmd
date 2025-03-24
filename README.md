@@ -12,7 +12,7 @@
 | !!            | `!!`                          | Repeats the last command                     | Type `!!` to run the previous command again                            |
 | !<string>     | `!<string>`                   | Runs last command starting with string       | For example, `!git` reruns last command starting with "git"            |
 | !n            | `!n`                          | Runs command number *n* from history         | For example, `!42` runs command #42 from the `history` output          |
-| Ctrl + r      | `Ctrl + r`                    | Reverse search through command history       | Press `Ctrl + R` and start typing to search previous commands          |
+| Ctrl + r      | `Ctrl + r`                    | Reverse search through command history       | Press `Ctrl + r` and start typing to search previous commands          |
 | Ctrl + D      | `Ctrl + D`                    | Logs out of terminal or ends input (EOF)     | Press `Ctrl + D` at empty prompt to log out, or to end `cat`, `python` |
 | Ctrl + C      | `Ctrl + C`                    | Cancels a running process                    | Press `Ctrl + C` to stop a command or script that’s running            |
 | Ctrl + L      | `Ctrl + L`                    | Clears the terminal screen                   | Same as `clear`, but faster                                            |
